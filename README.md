@@ -64,3 +64,34 @@ GLHF
 Regards, L,P,I
 
 PS: Hopefully I+P double check repaired all possible discrepancies
+
+## Week 4
+
+The time we all have been waiting for is here! (seriously, me too)
+
+Let's do some training magic 🧙‍♂️
+
+On this week's task, you will finally make your network able to train and to optimize its parameters. All is prepared, you just have to finish the algorithms of 3 optimizers (and do some tracking and visualizations).
+
+Regards, L.
+
+### Training is not all it takes!
+We all started at debugging our systems with lines of text into textual output... 
+Sure, it can help, but when you are training neural network for hours with new output every few seconds, the data can scale up to few thousands, and you ... we all are lazy to go manually through so many lines.
+Thankfully, we don't have to!! because... Visualization comes to help 📈📉📊.
+
+Maybe, few of you have the pleasure to know [**Tensorboard**](https://www.tensorflow.org/tensorboard), 
+which is a nice graphical interface for visualizing any data aggregated during training, most usually graphs with losses.
+Graphical visualizations help us greatly with identifying when(+where) the training went wrong.
+
+However, time brought us multiple different visualization and tracking toolkits. 
+ - [ML Flow](https://mlflow.org/)
+ - [Kubeflow](https://www.kubeflow.org/)
+ - our favorite [**WandB**](https://wandb.ai/)
+
+There is a folder named [__wandb__](https://github.com/vgg-fiit/neural_networks_at_fiit_2022/tree/main/wandb) containing a jupyter notebook, that you might see helpful for your future work with WandB. 
+Take a careful look into it, it is not that difficult. 
+
+Oh, and I recommend you to create your free account.
+
+...because - it is mandatory to track your trainings using **WandB** to present your progress on your semestral Assignments.
