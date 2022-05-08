@@ -1,0 +1,19 @@
+
+envName: SpaceInvaders-v4
+modelOutput: models/model.pkl
+snapshotInterval: 100000
+wandb: True
+
+frameSkip: 2
+shape: [128, 128]
+episodes: 50000
+memorySize: 200000
+nFrames: 4
+batchSize: 32
+learningRate: 0.0001
+gamma: 0.99
+epsStart: 1.0
+epsEnd: 0.06
+epsDecay: 50000
+targetUpdate: 10
+

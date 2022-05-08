@@ -1,0 +1,6 @@
+gym[atari]
+gym[accept-rom-license]
+pygame
+torch
+torchvision
+PyYAML
